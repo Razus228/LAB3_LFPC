@@ -7,7 +7,7 @@
 ***
 
 ## Theory
----
+
 
 Lexical analysis is the process of converting a programming language's source code, which is represented as a string of characters, into a collection of useful tokens or lexemes. These tokens are further processed, such as parsing and interpretation, to execute the code. A software called a lexer or tokenizer is responsible for the lexical analysis, which follows pre-established rules or patterns to create tokens for each language component like keywords, identifiers, operators, and literals. These tokens are then used by the parser for further processing.
 
@@ -16,14 +16,14 @@ The development of a lexer is essential when building a compiler, interpreter, o
 Python provides several tools and packages that can aid in the development of a lexer, making the process relatively simple.
 
 ## Objectives
-***
+
 
 - Understand what lexical analysis is.
 - Get familiar with the inner workings of a lexer/scanner/tokenizer.
 - Implement a sample lexer and show how it works.
   
 ## Implementation description
-***
+
 
 So the first step was that I created the *Token.py* file to store ther all the tokens that I need. (Also called tokenization)
 ```
@@ -93,7 +93,7 @@ if __name__ == '__main__':
 ```
 
 ## Results
-***
+
 
 For the example : ***12 + 23 * 8 / ( 24 / 6 - 3 )*** we have the following output:
 
@@ -113,7 +113,7 @@ For the example : ***12 + 23 * 8 / ( 24 / 6 - 3 )*** we have the following outpu
 ```
 
 ## Conclusion
-*** 
+
 
 The process of breaking down the source code into smaller tokens and assigning
 them to categories, known as lexical analysis, plays a crucial role in the 
@@ -128,7 +128,7 @@ greatly simplify the development of tools and programs that employ programming
 languages.
 
 ## References
-***
+
 
 1. https://docs.python.org/3/reference/lexical_analysis.html
 2. https://svn.python.org/projects/external/Pygments-1.1.1/docs/build/lexerdevelopment.html
